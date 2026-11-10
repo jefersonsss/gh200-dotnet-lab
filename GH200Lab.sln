@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GH200.Api", "GH200.Api\GH200.Api.csproj", "{0BD5A782-CFCE-4807-B717-4CA9EC147C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GH200.Tests", "GH200.Tests\GH200.Tests.csproj", "{62563B77-2B05-43B6-9B3C-4EA3B44C936A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD5A782-CFCE-4807-B717-4CA9EC147C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD5A782-CFCE-4807-B717-4CA9EC147C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD5A782-CFCE-4807-B717-4CA9EC147C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD5A782-CFCE-4807-B717-4CA9EC147C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62563B77-2B05-43B6-9B3C-4EA3B44C936A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62563B77-2B05-43B6-9B3C-4EA3B44C936A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62563B77-2B05-43B6-9B3C-4EA3B44C936A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62563B77-2B05-43B6-9B3C-4EA3B44C936A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

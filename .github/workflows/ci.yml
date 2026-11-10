@@ -1,0 +1,38 @@
+
+name: CI - ASP.NET Core
+
+on:
+  push:
+    branches: [main]
+
+  pull_request:
+    branches: [main]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    name: Compilar e testar .NET
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar o codigo
+        uses: actions/checkout@v6
+
+      - name: Instalar .NET 8
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar dependencias
+        run: dotnet restore GH200Lab.sln
+
+      - name: Compilar aplicacao
+        run: dotnet build GH200Lab.sln -c Release --no-restore
+
+      - name: Executar testes
+        run: dotnet test GH200Lab.sln -c Release --no-build
