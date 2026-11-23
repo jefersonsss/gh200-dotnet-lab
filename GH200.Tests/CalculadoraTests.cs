@@ -17,6 +17,6 @@ public class CalculadoraTests
         int resultado = Calculadora.Somar(a, b);
 
         // Assert: verificar o resultado
-        Assert.Equal(5, resultado);
+        Assert.Equal(10, resultado);
     }
 }
